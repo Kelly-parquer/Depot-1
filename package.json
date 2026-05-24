@@ -1,0 +1,29 @@
+{
+  "name": "ecclesiaste-lucifer-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp Ecclésiaste Lucifer - Développé par EMPEROR KELLY Parquer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "stop": "pkill -f 'node index.js'"
+  },
+  "keywords": ["whatsapp", "bot", "baileys"],
+  "author": "EMPEROR KELLY Parquer",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "pino": "^8.16.2",
+    "pino-pretty": "^10.2.3",
+    "qrcode-terminal": "^0.12.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "chalk": "^5.3.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.0.1-security"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
